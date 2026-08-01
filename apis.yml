@@ -1,8 +1,17 @@
 aid: roofstock
 name: Roofstock
-description: Roofstock is a company surfaced as a portfolio company of lightspeed-venture-partners, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Roofstock is a residential real estate investment platform and online marketplace for buying,
+  selling, and managing single-family rental (SFR) homes. It gives individual and institutional
+  investors research, analytics, certified property listings, and end-to-end services spanning
+  acquisitions, property management (Mynd), portfolio accounting software (Stessa), tenant
+  screening (RentPrep), asset management, and dispositions across dozens of U.S. markets. The
+  company reports hundreds of thousands of users and over $10B in transacted volume. Roofstock
+  operates a private web API (api.roofstock.com) and a GraphQL endpoint powering its marketplace
+  applications; it does not currently publish a public developer portal, OpenAPI specification,
+  first-party SDKs, or documented API access. This profile was surfaced as a portfolio company of
+  Lightspeed Venture Partners and SoftBank Vision Fund and enriched from Roofstock's public web
+  surface.
 url: https://raw.githubusercontent.com/api-evangelist/roofstock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,58 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+image: https://images.ctfassets.net/6rqe4bgsojj5/5st87lo40nArOwlEKHuu3p/8058f7766ac8555051de93701ef68282/RS_Social_Share.png
 tags:
 - Company
+- Real Estate
+- PropTech
+- Investing
+- Single-Family Rentals
+- Marketplace
+- FinTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/roofstock-domain-security.yml
+- type: Website
+  url: https://www.roofstock.com
+- type: GettingStarted
+  url: https://www.roofstock.com/how-it-works
+- type: About
+  url: https://www.roofstock.com/about-us
+- type: Blog
+  url: https://www.roofstock.com/learn
+- type: SignUp
+  url: https://www.roofstock.com/signup
+- type: Login
+  url: https://www.roofstock.com/login
+- type: TermsOfService
+  url: https://www.roofstock.com/terms
+- type: PrivacyPolicy
+  url: https://www.roofstock.com/privacy
+- type: Support
+  url: mailto:support@roofstock.com
+- type: GitHubOrganization
+  url: https://github.com/roofstock
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
