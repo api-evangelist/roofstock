@@ -53,7 +53,7 @@ x-enrichment:
 image: https://images.ctfassets.net/6rqe4bgsojj5/5st87lo40nArOwlEKHuu3p/8058f7766ac8555051de93701ef68282/RS_Social_Share.png
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Investing
 - Single-Family Rental
@@ -67,6 +67,7 @@ tags_raw:
 - Single-Family Rentals
 - Marketplace
 - FinTech
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
